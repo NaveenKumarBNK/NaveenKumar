@@ -30,17 +30,6 @@ void print(int x[][10],int n,int m)
 	}	
 }
 
-void res_request(int A[10][10],int N[10][10],int AV[10][10],int pid,int m)//A=Allocation,Av= Available,N= Need,M= Maximum 
-{
-	int reqmat[1][10];
-	int i;
-	for(i=0;i<m;i++)
-	{
-		printf(" Request for resource %d : ",i+1);
-		scanf("%d",&reqmat[0][i]);
-	}	
-}
-
 int safety(int A[][10],int N[][10],int AV[1][10],int n,int m,int a[])
 {
 	int i,j,k,x=0;
